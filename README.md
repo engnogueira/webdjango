@@ -5,7 +5,7 @@ Código desenvolvido no módulo de Django do [Site Python Pro](www.python.pro.br
 
 Aplicação disponível no [Heroku](htps:\\engdjango\herokuapp.com)
 
-Aluno: Gilson Nogueira - Turma Bruno Rocha 2019.11
+Aluno: Gilson Nogueira - Turma Bruno Rocha
 
 [![Build Status](https://travis-ci.org/engnogueira/webdjango.svg?branch=master)](https://travis-ci.org/engnogueira/webdjango)
 [![codecov](https://codecov.io/gh/engnogueira/webdjango/branch/master/graph/badge.svg)](https://codecov.io/gh/engnogueira/webdjango)
