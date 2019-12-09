@@ -3,6 +3,8 @@ Desenvolvimento de um site utilizando-se o Django - Framework Python
 
 Código desenvolvido no módulo de Django do [Site Python Pro](www.python.pro.br)
 
+Aplicação disponível no [Heroku](htps:\\engdjango\herokuapp.com)
+
 Aluno: Gilson Nogueira - Turma Bruno Rocha
 
 [![Build Status](https://travis-ci.org/engnogueira/webdjango.svg?branch=master)](https://travis-ci.org/engnogueira/webdjango)
