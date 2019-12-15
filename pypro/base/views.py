@@ -6,4 +6,3 @@ from django.shortcuts import render # noqa
 
 def home(request):
     return HttpResponse('Olá Django')
-
