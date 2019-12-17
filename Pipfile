@@ -12,11 +12,9 @@ codecov = "*"
 [packages]
 django = "*"
 gunicorn = "*"
-pytest-django = "*"
 requests = "*"
 sqlite3 = "*"
 sqlite = "*"
-pytest-cov = "*"
 
 [requires]
 python_version = "3.7"
