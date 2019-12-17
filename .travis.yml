@@ -1,4 +1,4 @@
-piplanguage: python
+language: python
 dist: xenial
 sudo: true
 
