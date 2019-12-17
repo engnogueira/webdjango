@@ -6,6 +6,8 @@ verify_ssl = true
 [dev-packages]
 flake8 = "*"
 pytest-django = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [packages]
 django = "*"
@@ -13,6 +15,7 @@ gunicorn = "*"
 pytest-django = "*"
 requests = "*"
 sqlite3 = "*"
+sqlite = "*"
 
 [requires]
 python_version = "3.7"
