@@ -10,11 +10,9 @@ pytest-cov = "*"
 codecov = "*"
 
 [packages]
-django = "*"
 gunicorn = "*"
 requests = "*"
-sqlite3 = "*"
-sqlite = "*"
+django = "*"
 
 [requires]
 python_version = "3.7"
