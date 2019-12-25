@@ -5,10 +5,12 @@ videos = [
     {'slug': 'instalacao-windows', 'titulo': 'Instalação Windows', 'vimeo_id': 381437493}
 ]
 
-videos_dct={dct['slug']: dct for dct in videos}
+videos_dct = {dct['slug']: dct for dct in videos}
+
 
 def indice(request):
-    return render(request, "aperitivos/indice.html", context={'videos':videos})
+    return render(request, "aperitivos/indice.html", context={'videos': videos})
+
 
 def video(request, slug):
     video = videos_dct[slug]
