@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Python Pro</title>
+    <title>{% block title %}Python Pro{% endblock title %}</title>
 
-    <meta name="description" content="Página do curso Python Pro">
+    <meta name="description" content="{% block description %}Página do curso Python Pro{% endblock description %}">
     <meta name="author" content="Gilson Nogueira">
   	<link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}"/>
 
@@ -27,79 +27,8 @@
 		<ul class="navbar-nav mr-auto"></ul>
 	  </div>
 </nav>
-    <div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="jumbotron">
-				<h2>
-					Curso de Python com Luciano Ramalho
-				</h2>
-				<h4 class="mt-4"> Matriculas abertas! Custo de R$1.000,00</h4>
-				<!-- INICIO DO BOTAO PAGSEGURO -->
-				<a href="javascript:void(0)"
-				   onclick="PagSeguroLightbox('2E755E63BEBE9F8CC4236FACE491E206'); return false;">
-					<img src="//assets.pagseguro.com.br/ps-integration-assets/botoes/pagamentos/205x30-pagar.gif"
-						 alt="Pague com PagSeguro - é rápido, grátis e seguro!" /></a>
-					<script type="text/javascript"
-							src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
-				<!-- FIM DO BOTAO PAGSEGURO -->
 
-<!--				<h4 class="mt-4"> Entre na fila de espera </h4>-->
-<!--	 			<form action="https://hotmail.us4.list-manage.com/subscribe/post?u=65a7bf5dd463840873c4cdd75&amp;id=67b2053416"
-					  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-					  target="_blank" novalidate>
-					<div class="form-row align-items-center">
-						<div class="col-auto">
-						  	<label class="sr-only" for="mce-EMAIL">Email</label>
-						  	<input type="email" value="" name="EMAIL" class="form-control required" id="mce-EMAIL"
-								   placeholder="exemplo@email.com">
-						</div>
-						<div class="col-auto">
-						  	<label class="sr-only" for="mce-EMAIL">Email</label>
-						  	<input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME"
-								   placeholder="Seu Nome">
-						</div>-->
-<!--						<real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<!--                        <div style="position: absolute; left: -5000px;"
-							 aria-hidden="true"><input type="text" name="b_298725d1b42f74339d8bcc8db_03c8c5bd04"
-													   tabindex="-1" value="">
-						</div>
-						<div class="col-auto">
-						  	<button type="submit" class="btn btn-primary mb-2">Submit</button>
-						</div>-->
-					</div>
-				</form>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="card">
-					<h5 class="card-header">
-						Mais detalhes sobre o instrutor
-					</h5>
-					<div class="card-body">
-						<p class="card-text">
-							<img src="{% static 'img/luciano-ramalho.png' %}" alt="Foto de Luciano Ramalho"
-								class="img-thumbnail float-left mr-3"/>
-							Ramalho é sócio e professor na <a href="https://www.python.pro.br">Python Pro</a> e autor do
-							Livro
-							<a href="http://shop.oreilly.com/product/0636920032519.do" target="_blank">Python
-								Fluente</a>.
-							Foi diretor técnico do Brasil Online, primeiro portal da Abril S/A na Web.
-							Liderou times para os portais IDG Now, BOL, UOL, AOL Brasil e outros, usando Python desde
-							1998.
-							Como instrutor, atendeu clientes como Citibank, CPqD, Serpro, Presidência da República,
-							Globo.com e Itaú. Palestrante em eventos internacionais como FISL, PyCon US e OSCON. Ajudou
-							a
-							criar a Associação Python Brasil e foi seu presidente. É membro da Python Software
-							Foundation e
-							fundador do Garoa Hacker Clube, o primeiro hackerspace do Brasil.
-						</p>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+{% block body %}{% endblock body %}
 
 <footer class="main-footer mt-5 pt-4 text-light">
 	<div class="container">
