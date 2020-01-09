@@ -20,6 +20,7 @@ django-s3-folder-storage = "*"
 collectfast = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.7"

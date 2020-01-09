@@ -14,6 +14,7 @@ def indice(request):
     return render(request, "aperitivos/indice.html", context={'videos': videos})
 
 
+# noinspection PyUnresolvedReferences
 def video(request, slug):
-    video = videos_dct[slug]
+    video = Video.objects.get(slug=slug)
     return render(request, "aperitivos/video.html", context={'video': video})
