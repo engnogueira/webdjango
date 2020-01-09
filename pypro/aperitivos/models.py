@@ -1,8 +1,9 @@
 from django.db import models
+from django.db.models import Model
 from django.urls import reverse
 
 
-class Video(models.Model):
+class Video(Model):
     slug = models.CharField(max_length=32)
     titulo = models.CharField(max_length=32)
     vimeo_id = models.CharField(max_length=32)
