@@ -5,9 +5,10 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
-pytest-django = "*"
 pytest-cov = "*"
 codecov = "*"
+model-mommy = "*"
+pytest-django = "*"
 
 [packages]
 gunicorn = "*"
@@ -20,7 +21,8 @@ django-s3-folder-storage = "*"
 collectfast = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
-pytest-django = "*"
+flake8 = "*"
+django-ordered-model = "*"
 
 [requires]
 python_version = "3.7"
