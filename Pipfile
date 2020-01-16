@@ -23,6 +23,7 @@ django-debug-toolbar = "*"
 sentry-sdk = "*"
 flake8 = "*"
 django-ordered-model = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.7"
