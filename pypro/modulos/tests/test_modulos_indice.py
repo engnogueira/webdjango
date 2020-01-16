@@ -1,5 +1,6 @@
 import pytest
 # from django.urls import reverse
+from django.urls import reverse
 from model_mommy import mommy
 
 # from pypro.django_assertions import assert_contains
@@ -19,12 +20,16 @@ def aulas(modulos):
     return aulas
 
 
+@pytest.fixture
+def resp(client, modulos, aulas):
+    resp = client.get(reverse('modulos:indice'))
+    return resp
+
+
 def test_indice_disponivel(resp):
     assert resp.status_code == 200
-# @pytest.fixture
-# def resp(client, modulos, aulas):
-#     resp = client.get(reverse('modulos:indice'))
-#     return resp
+    return resp
+
 #
 #
 # def test_titulo(resp, modulo: Modulo):

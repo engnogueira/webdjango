@@ -21,12 +21,12 @@ def resp_video_nao_encontrado(client, video):
     return client.get(reverse('aperitivos:video', args=(video.slug + 'video_nao_existente',)))
 
 
-def test_status_code(resp):
-    assert resp.status_code == 200
-
-
 def test_status_code_video_nao_encontrado(resp_video_nao_encontrado):
     assert resp_video_nao_encontrado.status_code == 404
+
+
+def test_status_code(resp):
+    assert resp.status_code == 200
 
 
 def test_title_video(resp, video):
@@ -34,4 +34,4 @@ def test_title_video(resp, video):
 
 
 def test_conteudo_video(resp, video):
-    assert_contains(resp, '<iframe src="https://player.vimeo.com/video/{video.vimeo_id}"')
+    assert_contains(resp, f'<iframe src="https://player.vimeo.com/video/{video.vimeo_id}"')
