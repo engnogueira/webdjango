@@ -1,12 +1,15 @@
 from django.db import models
-from django.db.models import Model
 from django.urls import reverse
 
 
-class Video(Model):
-    slug = models.CharField(max_length=32)
+class Video(models.Model):
     titulo = models.CharField(max_length=32)
+    slug = models.SlugField(max_length=32)
     vimeo_id = models.CharField(max_length=32)
+    creation = models.DateTimeField(auto_now_add=True)
 
     def get_absolute_url(self):
         return reverse('aperitivos:video', args=(self.slug,))
+
+    def __str__(self):
+        return f'Video: {self.titulo}'

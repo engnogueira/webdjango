@@ -3,29 +3,29 @@ dist: xenial
 sudo: true
 
 python:
- - 3.7
+    - 3.7
 
 services:
- - postgresql
+    - postgresql
 addons:
- - postgresql: '9.5'
+    -   postgresql: '9.5'
 
 env:
     global:
-     - PIPENV_VENV_IN_PROJECT=1
-     - PIPENV_IGNORE_VIRTUALENVS=1
+        - PIPENV_VENV_IN_PROJECT=1
+        - PIPENV_IGNORE_VIRTUALENVS=1
 
 install:
- - pip install pipenv
- - pipenv sync -d
- - cp contrib/env-sample .env
+    - pip install pipenv
+    - pipenv sync -d
+    - cp contrib/env-sample .env
 
 before_script:
- - psql -c "CREATE DATABASE testdb;" -U postgres
+    - psql -c "CREATE DATABASE testdb;" -U postgres
 
 script:
- - pipenv run flake8 .
- - pipenv run pytest --cov=pypro
+    - pipenv run flake8 .
+    - pipenv run pytest --cov=pypro
 
 after_success:
- - pipenv run codecov
+    - pipenv run codecov
