@@ -14,20 +14,11 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.conf import settings
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 
-app_name = 'base'
+from pypro.turmas import views
+
+app_name = 'turmas'
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('pypro.base.urls')),
-    path('aperitivos/', include('pypro.aperitivos.urls')),
-    path('modulos/', include('pypro.modulos.urls')),
-    path('turmas/', include('pypro.turmas.urls')),
+    path('', views.indice, name='indice'),
 ]
-
-if settings.DEBUG:
-    import debug_toolbar
-
-    urlpatterns.append(path('__debug__/', include(debug_toolbar.urls)))
