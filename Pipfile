@@ -7,13 +7,11 @@ verify_ssl = true
 flake8 = "*"
 pytest-cov = "*"
 codecov = "*"
-model-mommy = "*"
 pytest-django = "*"
 
 [packages]
 gunicorn = "*"
 requests = "*"
-django = "*"
 python-decouple = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
@@ -24,6 +22,10 @@ sentry-sdk = "*"
 flake8 = "*"
 django-ordered-model = "*"
 django-extensions = "*"
+model-mommy = "*"
+model-bakery = "*"
+pytest = "*"
+django = "*"
 
 [requires]
 python_version = "3.7"
