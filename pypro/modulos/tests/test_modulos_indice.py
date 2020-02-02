@@ -1,7 +1,7 @@
 import pytest
 # from django.urls import reverse
 from django.urls import reverse
-from model_mommy import mommy
+from model_bakery import baker
 
 # from pypro.django_assertions import assert_contains
 from pypro.modulos.models import Modulo, Aula
@@ -9,14 +9,14 @@ from pypro.modulos.models import Modulo, Aula
 
 @pytest.fixture
 def modulos(db):
-    return mommy.make(Modulo, 2)
+    return baker.make(Modulo, 2)
 
 
 @pytest.fixture
 def aulas(modulos):
     aulas = []
     for modulo in modulos:
-        aulas.extend(mommy.make(Aula, 3, modulo=modulo))
+        aulas.extend(baker.make(Aula, 3, modulo=modulo))
     return aulas
 
 
