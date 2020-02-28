@@ -25,7 +25,7 @@ django-extensions = "*"
 model-mommy = "*"
 model-bakery = "*"
 pytest = "*"
-django = "*"
+django = ">=3.0.3"
 
 [requires]
 python_version = "3.7"
