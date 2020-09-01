@@ -92,11 +92,10 @@
         },
         "django-extensions": {
             "hashes": [
-                "sha256:4524eca892d23fa6e93b0620901983b287ff5dc806f1b978d6a98541f06b9471",
-                "sha256:936e8e3962024d3c75ea54f4e0248002404ca7ca7fb698430e60b06b5555b4e7"
+                "sha256:0ede618f3d933317737406c979753bb91436c3b3e93a452638a1483b624aa89d",
+                "sha256:b49388a943368417d4c203d51866ca4ffe3011bb240679558521762c4b452b8a"
             ],
-            "index": "pypi",
-            "version": "==2.2.6"
+            "version": "==3.0.7"
         },
         "django-ordered-model": {
             "hashes": [
