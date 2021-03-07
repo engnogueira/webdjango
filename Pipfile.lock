@@ -160,11 +160,10 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:0505dd08068cfec00f53a74a0ad927676d7757da81b7436a6eefe4c7cf75c545",
-                "sha256:15ec6c0fd909e893e3a08b3a7c76ecb149122fb14b7efe1199ddd4c7c57ea958"
+                "sha256:10ab3abe22ce1b2925a4918151538d2f9f9e905ebea8638f8a389bf9923facf6",
+                "sha256:2af2089b29fef4eedaebef97e9046d3bc781a1a85fe1aef90cc5a1de30f06e27"
             ],
-            "markers": "python_version < '3.8'",
-            "version": "==1.6.1"
+            "version": "==3.7.1"
         },
         "jmespath": {
             "hashes": [
@@ -478,11 +477,10 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:0505dd08068cfec00f53a74a0ad927676d7757da81b7436a6eefe4c7cf75c545",
-                "sha256:15ec6c0fd909e893e3a08b3a7c76ecb149122fb14b7efe1199ddd4c7c57ea958"
+                "sha256:10ab3abe22ce1b2925a4918151538d2f9f9e905ebea8638f8a389bf9923facf6",
+                "sha256:2af2089b29fef4eedaebef97e9046d3bc781a1a85fe1aef90cc5a1de30f06e27"
             ],
-            "markers": "python_version < '3.8'",
-            "version": "==1.6.1"
+            "version": "==3.7.1"
         },
         "mccabe": {
             "hashes": [
