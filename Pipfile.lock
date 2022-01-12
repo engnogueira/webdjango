@@ -100,11 +100,10 @@
         },
         "django-ordered-model": {
             "hashes": [
-                "sha256:0931f498008f91a00a32c4e0ae08a662ef608a1092bf6e6ec9af9b1a83f08acf",
-                "sha256:abf0d963f7e607a994baf6bc300e50af647b3d243c3e592c6cc8f8b924b6d427"
+                "sha256:26c6b5a87a6e51323c53e0233d999dd1a9f40d43b0f17e478de951bc1f999c73",
+                "sha256:a840b475ca0f2bac5f6e4918e107a8e075578babcd94b3b8d0ba7f009eaf1450"
             ],
-            "index": "pypi",
-            "version": "==3.3.0"
+            "version": "==3.5"
         },
         "django-s3-folder-storage": {
             "hashes": [
