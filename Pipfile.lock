@@ -45,11 +45,8 @@
             "version": "==1.16.24"
         },
         "certifi": {
-            "hashes": [
-                "sha256:1d987a998c75633c40847cc966fcf5904906c920a7f17ef374f5aa4282abd304",
-                "sha256:51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519"
-            ],
-            "version": "==2020.4.5.1"
+            "hashes": [],
+            "version": "==2022.6.15.1"
         },
         "chardet": {
             "hashes": [
@@ -397,11 +394,8 @@
             "version": "==19.3.0"
         },
         "certifi": {
-            "hashes": [
-                "sha256:1d987a998c75633c40847cc966fcf5904906c920a7f17ef374f5aa4282abd304",
-                "sha256:51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519"
-            ],
-            "version": "==2020.4.5.1"
+            "hashes": [],
+            "version": "==2022.6.15.1"
         },
         "chardet": {
             "hashes": [
