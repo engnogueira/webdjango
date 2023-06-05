@@ -91,12 +91,8 @@
             "version": "==2.2"
         },
         "django-extensions": {
-            "hashes": [
-                "sha256:4524eca892d23fa6e93b0620901983b287ff5dc806f1b978d6a98541f06b9471",
-                "sha256:936e8e3962024d3c75ea54f4e0248002404ca7ca7fb698430e60b06b5555b4e7"
-            ],
-            "index": "pypi",
-            "version": "==2.2.6"
+            "hashes": [],
+            "version": "==3.2.3"
         },
         "django-ordered-model": {
             "hashes": [
