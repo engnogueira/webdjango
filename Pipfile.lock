@@ -557,12 +557,8 @@
             "version": "==2.8.1"
         },
         "pytest-django": {
-            "hashes": [
-                "sha256:456fa6854d04ee625d6bbb8b38ca2259e7040a6f93333bfe8bc8159b7e987203",
-                "sha256:489b904f695f9fb880ce591cf5a4979880afb467763b1f180c07574554bdfd26"
-            ],
-            "index": "pypi",
-            "version": "==3.8.0"
+            "hashes": [],
+            "version": "==4.7.0"
         },
         "requests": {
             "hashes": [
