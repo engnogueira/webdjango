@@ -336,11 +336,8 @@
             "version": "==0.14.1"
         },
         "six": {
-            "hashes": [
-                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
-                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
-            ],
-            "version": "==1.15.0"
+            "hashes": [],
+            "version": "==1.17.0"
         },
         "sqlparse": {
             "hashes": [
@@ -573,11 +570,8 @@
             "version": "==2.23.0"
         },
         "six": {
-            "hashes": [
-                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
-                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
-            ],
-            "version": "==1.15.0"
+            "hashes": [],
+            "version": "==1.17.0"
         },
         "urllib3": {
             "hashes": [
