@@ -167,11 +167,8 @@
             "version": "==1.6.1"
         },
         "jmespath": {
-            "hashes": [
-                "sha256:b85d0567b8666149a93172712e68920734333c0ce7e89b78b3e987f71e5ed4f9",
-                "sha256:cdf6525904cc597730141d61b36f2e4b8ecc257c420fa2f4549bac2c2d0cb72f"
-            ],
-            "version": "==0.10.0"
+            "hashes": [],
+            "version": "==1.1.0"
         },
         "mccabe": {
             "hashes": [
